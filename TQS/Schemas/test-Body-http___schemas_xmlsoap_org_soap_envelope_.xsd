@@ -1,0 +1,17 @@
+<?xml version = '1.0'?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/soap/envelope/" targetNamespace="http://schemas.xmlsoap.org/soap/envelope/" elementFormDefault="qualified">
+   <xsd:element name="Body">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="getMyTasks">
+               <xsd:complexType>
+                  <xsd:sequence>
+                     <xsd:element name="username" type="xsd:string"/>
+                     <xsd:element name="password" type="xsd:string"/>
+                  </xsd:sequence>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+</xsd:schema>
